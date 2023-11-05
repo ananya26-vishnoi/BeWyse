@@ -1,15 +1,20 @@
 # Installation
 
-
-
-When you verify your Git account, any project you create will be automatically pushed to your GitHub account. From there, you can easily clone the project to your local machine by running the following command in your terminal: 
-
 ```bash
 git clone https://github.com/<your username>/<Project Name>.git
 ```
 
 If you haven't verified your Git account, don't worry! You can still download the project as a zip file and extract it to your local machine. This option is provided at the last step of project creation, so you can easily access and work with the files even without a Git account.
 
+# Prerequisites
+
+Before you start using this project, make sure you have the following set up:
+
+ - Python installed on your system.
+ - Django and Django REST framework installed.
+ - Firebase Admin SDK for token verification.
+ - MongoDB server running locally or accessible via the specified connection URL.
+ 
 # Setup
 
 ## Virtual Environment
